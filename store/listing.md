@@ -35,7 +35,7 @@ nothing. Promoted posts and posts without text are never sent.
 No server, no analytics. Only the post text goes to api.typesafe.ai. Your key stays in this browser's
 extension storage. Open source: https://github.com/oso95/x-scanner
 
-**Category**: Social & Communication
+**Category**: Social Media & Communication (older dashboards list it as Social & Communication)
 
 **Language**: English
 
@@ -68,12 +68,13 @@ extension storage. Open source: https://github.com/oso95/x-scanner
 
 ## Assets
 
-- Icon: `icons/128.png` (also inside the package).
+- Store icon: `store/icon-128.png`, the extension icon at 96 px on a 128 px transparent canvas as the
+  image guidelines ask. (`icons/128.png` inside the package is the full-bleed version Chrome uses.)
 - Screenshots (1280×800): `store/screenshot-1.png` timeline with flags and the panel,
   `store/screenshot-2.png` the detail card, `store/screenshot-3.png` settings. Regenerate with
   `npm run screenshots`. They are captured on the test fixture, which mimics X's markup, so no real
   user's posts appear in the listing.
-- Promo tiles are optional; none are provided.
+- Small promo tile (440×280, optional): `store/promo-440x280.png`. Marquee (1400×560) not provided.
 
 ## Publishing steps
 
